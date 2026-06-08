@@ -1,6 +1,9 @@
 # Sweet Shop Website
 A website that features sweets that are interactive and clickable! It is made using HTML and CSS.
 
+## Live demo
+https://mianyay.github.io/sweet-shop-website/
+
 ## About
 Clicking the flan will lead to a pudding recipe, and clicking the cake will lead to the respective cake recipes. The lemon parfait will also shake if you tap it. You can learn how to make these desserts through their recipe links. I created this to practise HTML and CSS; it's my first time doing so. 
 
