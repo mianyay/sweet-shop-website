@@ -1,2 +1,4 @@
-# sweet-shop-website
-A beginner website that is a sweet shop
+# Sweet shop
+A website that features sweets that are interactive and clickable!
+
+
