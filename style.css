@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@keyframes fade {
+    0% {opacity: 0;
+        transform: translateY(20px)
+    }
+    100% {opacity: 1;
+        transform: translateY(0);
+    }
+}
+.image-stack {
+    position: relative;
+    animation: fade 1.2s ease-out
+}
+
+/* background of first pink img */
+.center {
+    display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.overlay {
+    position: absolute;
+}
+
+/* pudding */
+.pudding {
+    width: 35%;
+    top: 8%;
+    left: 6%;
+}
+/* sweet shop */
+.sweet-shop {
+    width: 40%;
+    top: -5%;
+    right: 25%;
+}
+/* rin lemon */
+.rin-lemon {
+    width: 45%;
+    top: 10%;
+    left: 55%;
+}
+/* peach cake */
+.overlay-4 {
+    width: 29%;
+    top: 42%;
+    right: 67%;
+}
+/* orange cake */
+.overlay-5 {
+    width: 26%;
+    top: 44%;
+    right: 36%;
+}
+/* strawberry cake */
+.overlay-6 {
+    width: 26%;
+    top: 44%;
+    left: 68%;
+}
+/* parfait */
+.parfait {
+    width: 33%;
+    bottom: -1%;
+    right: 62%;
+}
+/* doublepeeps */
+.doublepeeps {
+    width: 43%;
+    bottom: 2%;
+    left: 53%;
+}
+
+.text-overlay {
+    position: absolute;
+    color: #f3ede1;
+    display: inline-block
+}
+/* Yummy desserts is the best for a bad day! */
+.text-1 {
+    font-family: "Chewy";
+    top: 38%;
+    left: 5%;
+    font-size: clamp(12px, 4.5vw, 80px);
+    white-space: nowrap;
+}
+/* Grab yourself a treat with friends and family!! */
+.text-2 {
+    font-family: "Chewy";
+    bottom: 21.5%;
+    left: 43%;
+    max-width: 40%;
+    font-size: clamp(12px, 4vw, 80px);
+}
+/* Lemon Parfait */
+.text-3 {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    bottom: 13.5%;
+    left: 34%;
+    font-size: clamp(12px, 3vw, 80px);
+    transform: rotate(115deg);
+    transform-origin: top left;
+}
+.peach {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    bottom: 37%;
+    right: 82%;
+    font-size: clamp(12px, 3vw, 80px);
+    transform: rotate(10deg);
+    transform-origin: top left;
+}
+.orange {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    bottom: 37%;
+    left: 34%;
+    font-size: clamp(12px, 3vw, 80px);
+    max-width: 50%;
+    transform: rotate(10deg);
+    transform-origin: top left;
+}
+.strawberry {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    bottom: 35.5%;
+    left: 65%;
+    font-size: clamp(12px, 3vw, 80px);
+    max-width: 50%;
+    transform: rotate(10deg);
+    transform-origin: top left;
+}
+/* background of second + third pink img */
+.lower {
+    width: 97%;
+    margin-left: 7px;
+    margin-right: 0;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+@keyframes float {
+    0% {transform: translateY(0); }
+    50% {transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+.rin-lemon,
+.doublepeeps {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes inlarge {
+    0%, 100% {transform: scale(1)}
+    50% {transform: scale(1.05)}
+}
+
+.pudding:hover {
+    animation: inlarge 1.5s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg); }
+    25% {transform: rotate(-3deg); }
+    50% {transform: rotate(3deg); }
+    75% {transform: rotate(-2deg); }
+    100% {transform: rotate(0deg); }
+}
+
+.overlay-4:hover,
+.overlay-5:hover,
+.overlay-6:hover {
+    animation: wiggle 1s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes tilt-shake {
+    0% {transform: translate(0,0) rotate(0deg); }
+    25% {transform: translate(5px, 5px) rotate(5deg); }
+    50% {transform: translate(0,0) rotate(0deg); }
+    75% {transform: translate(-5px, 5px) rotate(-5deg); }
+    100% {transform: translate(0, 0) rotate(0deg)}
+}
+
+.parfait:active {
+    animation: tilt-shake 1s ease-in-out infinite;
+    cursor: pointer;
+}
+
+body {
+    background-color:#f3ede1;
+}
