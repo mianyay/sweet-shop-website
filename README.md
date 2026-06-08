@@ -11,7 +11,7 @@ Clicking the flan will lead to a pudding recipe, and clicking the cake will lead
 - Clickable desserts (majority with links)
 - Floating animation
 - Wiggle animation when hovering
-- In-large animation when hovering
+- Enlarge animation when hovering
 - Tilt shake animation on parfait when clicked
 
 ## How to run
