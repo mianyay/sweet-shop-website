@@ -14,6 +14,9 @@ Clicking the flan will lead to a pudding recipe, and clicking the cake will lead
 - In-large animation when hovering
 - Tilt shake animation on parfait when clicked
 
+## How to run
+Download the files and open index.html in a browser.
+
 ## Screenshots
 <img width="1195" height="749" alt="image" src="https://github.com/user-attachments/assets/413911c1-887b-4000-9fe9-e07295cd6514" />
 <img width="1189" height="563" alt="image" src="https://github.com/user-attachments/assets/5bbdbf78-5806-4c44-b950-ae3879a36500" />
